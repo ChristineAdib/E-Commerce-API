@@ -8,4 +8,4 @@ This project is an **E-commerce API** developed using **.NET **. It aims to prov
 ✅ **Product Management**: Add, update, and delete products  
 ✅ **Cart & Checkout**: Add products to the cart and complete orders  
 ✅ **Order Tracking**: View order history for users and admins  
-✅ **Daily Reports**: Send an automated daily report containing order data
+✅ **Daily Reports**: Send daily report containing order data
