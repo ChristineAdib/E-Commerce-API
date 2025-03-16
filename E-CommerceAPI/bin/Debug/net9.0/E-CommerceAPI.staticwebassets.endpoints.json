@@ -1,0 +1,744 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Images/Products/Blender.jpg",
+      "AssetFile": "Images/Products/Blender.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT4/Is3qN+RR9USCACkV6dGou+moCGPpgiXZLEZ313Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pT4/Is3qN+RR9USCACkV6dGou+moCGPpgiXZLEZ313Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Blender.t6r8v9gj3f.jpg",
+      "AssetFile": "Images/Products/Blender.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT4/Is3qN+RR9USCACkV6dGou+moCGPpgiXZLEZ313Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t6r8v9gj3f"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pT4/Is3qN+RR9USCACkV6dGou+moCGPpgiXZLEZ313Q="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Blender.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Dell_XPS_13.avlp80ekjz.jpg",
+      "AssetFile": "Images/Products/Dell_XPS_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl+ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:45:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avlp80ekjz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl+ag="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Dell_XPS_13.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Dell_XPS_13.jpg",
+      "AssetFile": "Images/Products/Dell_XPS_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6301"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl+ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:45:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl+ag="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/HuaweiP30.jpg",
+      "AssetFile": "Images/Products/HuaweiP30.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 23:57:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl+U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/HuaweiP30.r1gb3wbd3c.jpg",
+      "AssetFile": "Images/Products/HuaweiP30.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 23:57:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1gb3wbd3c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl+U="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/HuaweiP30.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/IPhone_13.jpg",
+      "AssetFile": "Images/Products/IPhone_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBiU2/qO27pXS7SokZXnHekg2h+u7DxC3UVGsJ0cB4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:40:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBiU2/qO27pXS7SokZXnHekg2h+u7DxC3UVGsJ0cB4U="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/IPhone_13.wxuk3z3zgl.jpg",
+      "AssetFile": "Images/Products/IPhone_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pBiU2/qO27pXS7SokZXnHekg2h+u7DxC3UVGsJ0cB4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:40:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wxuk3z3zgl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pBiU2/qO27pXS7SokZXnHekg2h+u7DxC3UVGsJ0cB4U="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/IPhone_13.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Macbook_Pro.33htnfd9ty.jpg",
+      "AssetFile": "Images/Products/Macbook_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QeEkaF+KSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:44:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "33htnfd9ty"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QeEkaF+KSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Macbook_Pro.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Macbook_Pro.jpg",
+      "AssetFile": "Images/Products/Macbook_Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QeEkaF+KSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:44:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QeEkaF+KSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Microwave.3q0fgtjxzc.jpg",
+      "AssetFile": "Images/Products/Microwave.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:58:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3q0fgtjxzc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Microwave.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Microwave.jpg",
+      "AssetFile": "Images/Products/Microwave.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:58:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/SGS22.jpg",
+      "AssetFile": "Images/Products/SGS22.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jofb6aJ+MRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:42:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jofb6aJ+MRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/SGS22.us4htypbpg.jpg",
+      "AssetFile": "Images/Products/SGS22.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jofb6aJ+MRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:42:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us4htypbpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jofb6aJ+MRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/SGS22.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Steam_Mop.jpg",
+      "AssetFile": "Images/Products/Steam_Mop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8J5+5U8TD4Ud9+GSIT0p5e5DEBZ0MBHQNYf1U04K/Sc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 22:00:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8J5+5U8TD4Ud9+GSIT0p5e5DEBZ0MBHQNYf1U04K/Sc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Steam_Mop.w0pltkux5p.jpg",
+      "AssetFile": "Images/Products/Steam_Mop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8J5+5U8TD4Ud9+GSIT0p5e5DEBZ0MBHQNYf1U04K/Sc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 22:00:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w0pltkux5p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8J5+5U8TD4Ud9+GSIT0p5e5DEBZ0MBHQNYf1U04K/Sc="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Steam_Mop.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Vacuum.jpg",
+      "AssetFile": "Images/Products/Vacuum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:59:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/Vacuum.uipxbfr2y6.jpg",
+      "AssetFile": "Images/Products/Vacuum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:59:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uipxbfr2y6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/Vacuum.jpg"
+        }
+      ]
+    }
+  ]
+}

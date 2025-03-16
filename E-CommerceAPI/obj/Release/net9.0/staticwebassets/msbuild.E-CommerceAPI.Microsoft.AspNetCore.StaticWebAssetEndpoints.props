@@ -1,0 +1,112 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Blender.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Blender.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pT4/Is3qN\u002BRR9USCACkV6dGou\u002BmoCGPpgiXZLEZ313Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6756"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pT4/Is3qN\u002BRR9USCACkV6dGou\u002BmoCGPpgiXZLEZ313Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:57:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Blender.t6r8v9gj3f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Blender.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t6r8v9gj3f"},{"Name":"integrity","Value":"sha256-pT4/Is3qN\u002BRR9USCACkV6dGou\u002BmoCGPpgiXZLEZ313Q="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Blender.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6756"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pT4/Is3qN\u002BRR9USCACkV6dGou\u002BmoCGPpgiXZLEZ313Q=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:57:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Dell_XPS_13.avlp80ekjz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Dell_XPS_13.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"avlp80ekjz"},{"Name":"integrity","Value":"sha256-Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl\u002Bag="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Dell_XPS_13.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6301"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl\u002Bag=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:45:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Dell_XPS_13.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Dell_XPS_13.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl\u002Bag="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6301"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ct3BHTA9DWiVX5qpDyJry/IgdfiWbKNOzflnVUxl\u002Bag=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:45:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/HuaweiP30.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\HuaweiP30.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl\u002BU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"11421"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Mar 2025 23:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/HuaweiP30.r1gb3wbd3c.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\HuaweiP30.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r1gb3wbd3c"},{"Name":"integrity","Value":"sha256-AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl\u002BU="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/HuaweiP30.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11421"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022AYdEi/IzutWLUoxy83rre/19zj/iHe9eCsH5IztWl\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Mar 2025 23:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/IPhone_13.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\IPhone_13.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pBiU2/qO27pXS7SokZXnHekg2h\u002Bu7DxC3UVGsJ0cB4U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5327"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pBiU2/qO27pXS7SokZXnHekg2h\u002Bu7DxC3UVGsJ0cB4U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:40:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/IPhone_13.wxuk3z3zgl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\IPhone_13.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wxuk3z3zgl"},{"Name":"integrity","Value":"sha256-pBiU2/qO27pXS7SokZXnHekg2h\u002Bu7DxC3UVGsJ0cB4U="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/IPhone_13.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5327"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pBiU2/qO27pXS7SokZXnHekg2h\u002Bu7DxC3UVGsJ0cB4U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:40:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Macbook_Pro.33htnfd9ty.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Macbook_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"33htnfd9ty"},{"Name":"integrity","Value":"sha256-QeEkaF\u002BKSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Macbook_Pro.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9586"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QeEkaF\u002BKSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:44:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Macbook_Pro.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Macbook_Pro.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QeEkaF\u002BKSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9586"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022QeEkaF\u002BKSMbxF3lxPMtIJCUxxZS3pLFFnaOB2wBC7HI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:44:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Microwave.3q0fgtjxzc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Microwave.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3q0fgtjxzc"},{"Name":"integrity","Value":"sha256-lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Microwave.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7588"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:58:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Microwave.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Microwave.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7588"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022lTrPO00suknbsKRJgiDH7KLjxjlFId4CTmhFmhuluFU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:58:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/SGS22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\SGS22.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jofb6aJ\u002BMRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4786"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jofb6aJ\u002BMRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:42:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/SGS22.us4htypbpg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\SGS22.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"us4htypbpg"},{"Name":"integrity","Value":"sha256-jofb6aJ\u002BMRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/SGS22.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4786"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jofb6aJ\u002BMRlAXkOMOHWec1bLxphQD7Zrm4f4/u1V2FQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:42:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Steam_Mop.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Steam_Mop.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8J5\u002B5U8TD4Ud9\u002BGSIT0p5e5DEBZ0MBHQNYf1U04K/Sc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7915"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228J5\u002B5U8TD4Ud9\u002BGSIT0p5e5DEBZ0MBHQNYf1U04K/Sc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 22:00:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Steam_Mop.w0pltkux5p.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Steam_Mop.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w0pltkux5p"},{"Name":"integrity","Value":"sha256-8J5\u002B5U8TD4Ud9\u002BGSIT0p5e5DEBZ0MBHQNYf1U04K/Sc="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Steam_Mop.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7915"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00228J5\u002B5U8TD4Ud9\u002BGSIT0p5e5DEBZ0MBHQNYf1U04K/Sc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 22:00:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Vacuum.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Vacuum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12478"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:59:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/E-CommerceAPI/Images/Products/Vacuum.uipxbfr2y6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\Vacuum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uipxbfr2y6"},{"Name":"integrity","Value":"sha256-ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg="},{"Name":"label","Value":"_content/E-CommerceAPI/Images/Products/Vacuum.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12478"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ikkxTOrmQIGLrsiY7goD8ZHU97iCPwcKIprmqEZyWKg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 21:59:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

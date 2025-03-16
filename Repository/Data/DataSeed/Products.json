@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "iPhone 13",
+    "Description": "Latest Apple smartphone with A15 chip",
+    "Price": 999,
+    "Stock": 50,
+    "ImageUrl": "Images/Products/IPhone_13.jpg",
+    "CategoryId": 11
+  },
+  {
+    "Name": "Samsung Galaxy S22",
+    "Description": "Flagship Samsung smartphone with great camera",
+    "Price": 899,
+    "Stock": 40,
+    "ImageUrl": "Images/Products/SGS22.jpg",
+    "CategoryId": 11
+  },
+  {
+    "Name": "MacBook Pro",
+    "Description": "Apple laptop with M1 chip",
+    "Price": 1299,
+    "Stock": 30,
+    "ImageUrl": "Images/Products/Macbook_Pro.jpg",
+    "CategoryId": 12
+  },
+  {
+    "Name": "Dell XPS 13",
+    "Description": "Ultra-thin and powerful laptop",
+    "Price": 1099,
+    "Stock": 25,
+    "ImageUrl": "Images/Products/Dell_XPS_13.jpg",
+    "CategoryId": 12
+  },
+  {
+    "Name": "Blender",
+    "Description": "High-speed kitchen blender",
+    "Price": 49,
+    "Stock": 60,
+    "ImageUrl": "Images/Products/Blender.jpg",
+    "CategoryId": 13
+  },
+  {
+    "Name": "Microwave Oven",
+    "Description": "800W microwave oven for quick heating",
+    "Price": 199,
+    "Stock": 35,
+    "ImageUrl": "Images/Products/Microwave.jpg",
+    "CategoryId": 13
+  },
+  {
+    "Name": "Vacuum Cleaner",
+    "Description": "Powerful vacuum cleaner for home cleaning",
+    "Price": 299,
+    "Stock": 20,
+    "ImageUrl": "Images/Products/Vacuum.jpg",
+    "CategoryId": 14
+  },
+  {
+    "Name": "Steam Mop",
+    "Description": "Efficient steam mop for floors",
+    "Price": 149,
+    "Stock": 30,
+    "ImageUrl": "Images/Products/Steam_Mop.jpg",
+    "CategoryId": 14
+  }
+]

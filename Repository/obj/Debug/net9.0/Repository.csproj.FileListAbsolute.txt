@@ -1,0 +1,15 @@
+E:\projects\E-CommerceAPIs\Repository\bin\Debug\net9.0\Repository.deps.json
+E:\projects\E-CommerceAPIs\Repository\bin\Debug\net9.0\Repository.dll
+E:\projects\E-CommerceAPIs\Repository\bin\Debug\net9.0\Repository.pdb
+E:\projects\E-CommerceAPIs\Repository\bin\Debug\net9.0\Core.dll
+E:\projects\E-CommerceAPIs\Repository\bin\Debug\net9.0\Core.pdb
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.csproj.AssemblyReference.cache
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.AssemblyInfoInputs.cache
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.AssemblyInfo.cs
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.csproj.CoreCompileInputs.cache
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.csproj.Up2Date
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.dll
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\refint\Repository.dll
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\Repository.pdb
+E:\projects\E-CommerceAPIs\Repository\obj\Debug\net9.0\ref\Repository.dll
