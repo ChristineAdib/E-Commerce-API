@@ -1,0 +1,888 @@
+{
+	"info": {
+		"_postman_id": "f71c6e15-61f0-4976-8aab-22ca88fa6597",
+		"name": "E-CommerceApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39524140"
+	},
+	"item": [
+		{
+			"name": "categoryRequests",
+			"item": [
+				{
+					"name": "getallcategory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateCategory",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDE3NDc5MjgsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.L-ZsCL7j_Mc5-UNusEpu2oGKfV1rxAO8EwO7KnU1moU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Clothes\",\r\n  \"description\": \"Clothing suitable for all ages and genders\",\r\n  \"parentId\": null,\r\n  \"Products\": []\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Categories",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ProductRequests",
+			"item": [
+				{
+					"name": "GetAllProducts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Products?pageIndex=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "pageIndex",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sorting",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Products?Sort=PriceDesc",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "Sort",
+									"value": "PriceDesc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Products?search=Vacuum",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "Vacuum"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Filtration",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Products?CategoryId=11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "CategoryId",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pagination",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Products?PageSize=3&PageIndex=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							],
+							"query": [
+								{
+									"key": "PageSize",
+									"value": "3"
+								},
+								{
+									"key": "PageIndex",
+									"value": "1"
+								},
+								{
+									"key": "CategoryId",
+									"value": "12",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddProduct",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDE3NDc5MjgsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.L-ZsCL7j_Mc5-UNusEpu2oGKfV1rxAO8EwO7KnU1moU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Huawei P30\",\r\n  \"description\": \"Latest model with high-end features\",\r\n  \"price\": 999.99,\r\n  \"stock\": 50,\r\n  \"imageUrl\": \"Images/Products/HuaweiP30.jpg\",\r\n   \"categoryId\": 11\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Products/11",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Products",
+								"11"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CartRequest",
+			"item": [
+				{
+					"name": "GetCart",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Carts?CartId=cart123",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Carts"
+							],
+							"query": [
+								{
+									"key": "CartId",
+									"value": "cart123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": \"cart123\",\r\n  \"Items\": [\r\n    {\r\n      \"Id\": 10,\r\n      \"Name\": \"iPhone 13\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/IPhone_13.jpg\",\r\n      \"Price\": 999.00,\r\n      \"Quantity\": 3\r\n    },\r\n    {\r\n      \"Id\": 13,\r\n      \"Name\": \"Dell XPS 13\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/Dell_XPS_13.jpg\",\r\n      \"Price\": 1099.00,\r\n      \"Quantity\": 2\r\n    },\r\n    {\r\n      \"Id\": 14,\r\n      \"Name\": \"Blender\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/Blender.jpg\",\r\n      \"Price\": 49.00,\r\n      \"Quantity\": 1\r\n    }\r\n  ],\r\n  \"DeliveryMethodId\":1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Carts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteCart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Carts?CartId=cart123",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Carts"
+							],
+							"query": [
+								{
+									"key": "CartId",
+									"value": "cart123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Id\": \"cart123\",\r\n  \"Items\": [\r\n    {\r\n      \"Id\": 10,\r\n      \"Name\": \"iPhone 13\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/IPhone_13.jpg\",\r\n      \"Price\": 999.00,\r\n      \"Quantity\": 3\r\n    },\r\n    {\r\n      \"Id\": 13,\r\n      \"Name\": \"Dell XPS 13\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/Dell_XPS_13.jpg\",\r\n      \"Price\": 1099.00,\r\n      \"Quantity\": 2\r\n    },\r\n    {\r\n      \"Id\": 14,\r\n      \"Name\": \"Blender\",\r\n      \"ImageUrl\": \"https://localhost:7282/Images/Products/Blender.jpg\",\r\n      \"Price\": 49.00,\r\n      \"Quantity\": 3\r\n    }\r\n  ],\r\n  \"PaymentIntentId\":\"pi_3R0WyvACXo63BrhJ0prQlRtg\",\r\n  \"ClientSecret\":\"pi_3R0WyvACXo63BrhJ0prQlRtg_secret_JCA2DJp4qilbkXhOJ3IxAfJrn\",\r\n  \"DeliveryMethodId\":1\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Carts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Carts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AccountsRequest",
+			"item": [
+				{
+					"name": "AdminLogin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\": \"christadib@gmail.com\",\r\n    \"Password\": \"Pa$$w0rd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Admin/AdminLogin",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Admin",
+								"AdminLogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UserRegister",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"displayName\":\"Mousa AD\",\r\n    \"email\":\"mm@gmail.com\",\r\n    \"PhoneNumber\":\"01111111111\",\r\n    \"password\":\"Hello@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Users/Register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"Register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UserLogin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const user = pm.response.json();\r",
+									"pm.test(\"Has properties\",function(){\r",
+									"    pm.expect(user).to.have.property('displayName');\r",
+									"    pm.expect(user).to.have.property('email');\r",
+									"    pm.expect(user).to.have.property('token');\r",
+									"});\r",
+									"if(pm.test(\"has properties\")){\r",
+									"    pm.collectionVariables.set('Token',user.token);\r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"strictSSL": false
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"mm@gmail.com\",\r\n    \"password\": \"Hello@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Users/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetUserAddress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDE1NjEwNDQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.w4jFS1Fs76Wmrnf1j5RxZgW58QUsS_CM7d9RjzExeyg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7282/api/Users/UserAddress",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"UserAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddAddress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJNb3VzYSBBRCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Im1tQGdtYWlsLmNvbSIsImV4cCI6MTc0MTU2MTAxNCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MiIsImF1ZCI6Ik15U2VjdXJlS2V5In0.xmVvXbznUDhU6NQsB7TQUp51pJjliPXfdjyXSRMCLgo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"label\": \"home\",\r\n    \"name\": \"Mo Ad\",\r\n    \"addressLine1\": \"123 main st\",\r\n    \"addressLine2\": \"Apt 4B\",\r\n    \"city\": \"New Youk\",\r\n    \"state\": \"NY\",\r\n    \"postalCode\": \"10001\",\r\n    \"country\": \"USA\",\r\n    \"phoneNumber\": \"010111111111\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Users/AddAddress",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"AddAddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateAddress",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDE1NjEwNDQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.w4jFS1Fs76Wmrnf1j5RxZgW58QUsS_CM7d9RjzExeyg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"label\": \"Home\",\r\n    \"name\": \"Christ Ad\",\r\n    \"addressLine1\": \"123 main st\",\r\n    \"addressLine2\": \"Apt 4B\",\r\n    \"city\": \"New York\",\r\n    \"state\": \"NY\",\r\n    \"postalCode\": \"10001\",\r\n    \"country\": \"USA\",\r\n    \"phoneNumber\": \"0101001010\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Users/Updateaddress",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"Updateaddress"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CheckEmailExists",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"displayName\":\"Lala AD\",\r\n    \"email\":\"mm@gmail.com\",\r\n    \"PhoneNumber\":\"01111111111\",\r\n    \"password\":\"Hello@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7282/api/Users/Register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7282",
+							"path": [
+								"api",
+								"Users",
+								"Register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OrderRequests",
+			"item": [
+				{
+					"name": "CreateOrder",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJNb3VzYSBBRCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Im1tQGdtYWlsLmNvbSIsImV4cCI6MTc0MTc5NjYyMiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MiIsImF1ZCI6Ik15U2VjdXJlS2V5In0.MAmpHnJZxN1CnnEoVjXk6lW0rRD49ZCI9yEPjyvxR_U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cartId\":\"cart123\",\r\n    \"deliveryMethodId\":1,\r\n    \"ShippingAddress\":{\r\n        \"FirstName\":\"christ\",\r\n        \"LastName\":\"Ad\",\r\n        \"Street\":\"NasrCity\",\r\n        \"city\":\"Cairo\",\r\n        \"country\":\"Egypt\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseUrl}}/api/Orders",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOrdersForUser",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{Token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Orders",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetDeliveryMethods",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Orders/DeliveryMethods",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Orders",
+								"DeliveryMethods"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatePayment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{BaseUrl}}/api/Payments?CartId=cart123",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Payments"
+							],
+							"query": [
+								{
+									"key": "CartId",
+									"value": "cart123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdatePayment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Payments?CartId=cart123",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Payments"
+							],
+							"query": [
+								{
+									"key": "CartId",
+									"value": "cart123"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all orders for all users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDIwNzk4MzYsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.fxwvGGLO9KroZRQ-d5A8_JTRSwWMdPbPiZ70vZDjjYA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Orders/allOrders",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Orders",
+								"allOrders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Daily orders",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJDaHJpc3RpbmUgQWRpYiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImNocmlzdGFkaWJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDIxNTY0MjEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcyODIiLCJhdWQiOiJNeVNlY3VyZUtleSJ9.laf-O8MMCRyA-A6p8xYQ99ADrIg8nWTqP5Sd9kYYe6k",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BaseUrl}}/api/Orders/dailyOrders",
+							"host": [
+								"{{BaseUrl}}"
+							],
+							"path": [
+								"api",
+								"Orders",
+								"dailyOrders"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BaseUrl",
+			"value": "https://localhost:7282",
+			"type": "string"
+		},
+		{
+			"key": "Token",
+			"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJNb3VzYSBBRCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6Im1tQGdtYWlsLmNvbSIsImV4cCI6MTc0MTgwOTM0MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzI4MiIsImF1ZCI6Ik15U2VjdXJlS2V5In0.ZpzYzMzToXR9_CEaoIk3mzBqyfCGL5l2IGa3f_0lAq4",
+			"type": "string"
+		}
+	]
+}
