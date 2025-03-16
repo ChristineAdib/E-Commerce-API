@@ -1,9 +1,0 @@
-wwwroot\Images\Products\Blender.jpg
-wwwroot\Images\Products\Dell_XPS_13.jpg
-wwwroot\Images\Products\HuaweiP30.jpg
-wwwroot\Images\Products\IPhone_13.jpg
-wwwroot\Images\Products\Macbook_Pro.jpg
-wwwroot\Images\Products\Microwave.jpg
-wwwroot\Images\Products\SGS22.jpg
-wwwroot\Images\Products\Steam_Mop.jpg
-wwwroot\Images\Products\Vacuum.jpg

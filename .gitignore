@@ -1,0 +1,21 @@
+# Ignore build outputs
+bin/
+obj/
+.vs/
+out/
+*.log
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore dependency folders
+node_modules/
+packages/
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.swp
